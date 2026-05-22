@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohit Portfolio</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+  </head>
+
+<body>
+
+  <!-- Loader -->
+<div id="loader">
+  <div class="spinner"></div>
+</div>
+
+<!-- Main Content -->
+<div id="content" style="display: none;">
+  
+  
+
+</div>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+  <nav class="navbar">
+
+    <h2 class="logo">Mohit Portfolio</h2>
+
+    <ul class="nav-links">
+
+      <li>
+        <a href="#home">
+          <i class="fa-solid fa-house"></i> Home
+        </a>
+      </li>
+
+      <li>
+        <a href="#about">
+          <i class="fa-solid fa-circle-info"></i> About
+        </a>
+      </li>
+
+      <li>
+        <a href="#skills">
+          <i class="fa-solid fa-address-card"></i> Skills
+        </a>
+      </li>
+
+      <li>
+        <a href="#projects">
+          <i class="fa-solid fa-screwdriver-wrench"></i> Projects
+        </a>
+      </li>
+
+      <li>
+        <a href="#contact">
+          <i class="fa-solid fa-envelope"></i> Contact
+        </a>
+      </li>
+        <button id="theme-toggle">
+          🌙Dark Mode
+        </button>
+      </li>
+
+    </ul>
+    
+  </nav>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+
+    <h2>Hi, I am Mohit Kumar</h2>
+
+    <p>
+      <span id="typing-text"></span>
+    </p>
+
+    <a href="#contact" class="btn">Hire Me</a>
+
+
+
+    <!-- Resume Download  & Preview Resume Button-->
+    
+      <a 
+        href="https://drive.google.com/file/d/1YsxDuowFm0YDfwuRDH04qwlosDDW65CU/view?usp=drivesdk" download class="btn resume-btn"
+        target="_blank"
+        class="btn resume-preview"
+      >
+        <i class="fa-solid fa-eye"></i> Preview & Download Resume
+      </a>
+    
+    
+
+  </div>
+
+  <div class="hero-img">
+    <img src="image1.jpeg" alt="Mohit Kumar">
+
+  </div>
+</section>
+
+<!-- ================= ABOUT SECTION ================= -->
+
+<section class="about-section" id="about" data-aos="fade-up">
+
+  <h2 class="section-title">About Me</h2>
+
+  <p>
+    Passionate MERN Stack Developer focused on building responsive,
+    user-friendly, and impactful applications that solve real-world problems.
+    Skilled in frontend and backend development with experience in
+    React.js, Node.js, Express.js, MongoDB, and modern deployment platforms.
+  </p>
+
+</section>
+
+<!-- SKILLS SECTION  -->
+
+<section class="skills-section" id="skills" data-aos="zoom-in">
+
+  <h2 class="section-title">My Skills</h2>
+
+  <div class="skills-container">
+
+    <div class="skill-card">
+      <i class="fa-brands fa-html5"></i>
+      <h3>HTML5</h3>
+    
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-css3-alt"></i>
+      <h3>CSS3</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-js"></i>
+      <h3>JavaScript</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-react"></i>
+      <h3>React JS</h3>
+      
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-node-js"></i>
+      <h3>Node JS</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-solid fa-server"></i>
+      <h3>Express JS</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-solid fa-database"></i>
+      <h3>MongoDB</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-solid fa-database"></i>
+      <h3>SQL</h3>
+    </div>
+
+  </div>
+
+  <!-- TECH TOOLS -->
+
+  <h2 class="section-title tools-title">Tech Tools</h2>
+
+  <div class="skills-container">
+
+    <div class="skill-card">
+      <i class="fa-solid fa-code"></i>
+      <h3>VS Code</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-codepen"></i>
+      <h3>Cursor AI</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-github"></i>
+      <h3>GitHub</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-git-alt"></i>
+      <h3>Git</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-solid fa-server"></i>
+      <h3>Render</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-solid fa-globe"></i>
+      <h3>Netlify</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-solid fa-cloud"></i>
+      <h3>Vercel</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-solid fa-pen-ruler"></i>
+      <h3>Canva</h3>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-solid fa-rocket"></i>
+      <h3>Postman</h3>
+    </div>
+
+  </div>
+
+</section>
+
+<!--  PROJECT SECTION  -->
+
+<section class="projects" id=" projects"data-aos="fade-right">
+
+  <h2 class="section-title">My Projects</h2>
+
+  <div class="project-container">
+
+    <!-- PROJECT 1 -->
+
+    <div class="project-card">
+
+      <h3>Real-Time Chat App</h3>
+
+      <p>
+        A real-time messaging application built using MERN Stack and Socket.io.
+        Features include live chat, authentication, online status, and responsive UI.
+      </p>
+
+      <div class="tech-stack">
+        <span>React</span>
+        <span>Node.js</span>
+        <span>MongoDB</span>
+        <span>Socket.io</span>
+      </div>
+
+      <div class="project-links">
+        <a href="https://chatlyy-mern.onrender.com" target="_blank">
+          🔗 Live Demo
+        </a>
+        <a href="https://github.com/Mohitmk9978/Real-Time-Chat-App" target="_blank">
+          📂 GitHub
+        </a>
+      
+      </div>
+
+    </div>
+
+    <!-- PROJECT 2 -->
+
+    <div class="project-card">
+
+      <h3>Real-Time Face and Emotions Detection</h3>
+
+      <p>
+        AI-powered real-time face and emotion detection system using computer
+        vision and webcam analysis to identify facial expressions and emotions.
+      </p>
+
+      <div class="tech-stack">
+        <span>JavaScript</span>
+        <span>AI Detection</span>
+        <span>Computer Vision</span>
+        <span>Webcam API</span>
+      </div>
+
+      <div class="project-links">
+        <a href="https://vladmandic.github.io/human/demo/index.html" target="_blank">
+          🔗 Live Demo
+        </a>
+        <a href="https://github.com/Mohitmk9978/Real-Time-Face-Emotions-Detection" target="_blank">
+          📂 GitHub
+        </a>
+      </div>
+
+    </div>
+
+    <!-- PROJECT 3 -->
+
+    <div class="project-card">
+
+      <h3>Full Stack Feedback Collector</h3>
+
+      <p>
+        Full-stack feedback management system with secure form submission,
+        real-time data storage, responsive dashboard, and MongoDB Atlas integration.
+      </p>
+
+      <div class="tech-stack">
+        <span>React.js</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>MongoDB Atlas</span>
+      </div>
+
+      <div class="project-links">
+        <a href="https://feedback-collector-flame.vercel.app" target="_blank">
+          🔗Live Demo
+        </a>
+        <a href="https://github.com/Mohitmk9978/feedback-collector" target="_blank">
+          📂 GitHub
+        </a>
+      </div>
+
+    </div>
+
+    <!-- PROJECT 4 -->
+
+    <div class="project-card">
+
+      <h3>Full Stack Food Delivery App</h3>
+
+      <p>
+        Full-stack food delivery platform with authentication, cart management,
+        product browsing, and responsive user interface.
+      </p>
+
+      <div class="tech-stack">
+        <span>MERN</span>
+        <span>Cloudinary</span>
+        <span>JWT</span>
+        <span>Tailwind</span>
+      </div>
+
+      <div class="project-links">
+        <a href="https://github.com/Omeshcoding/EatingLight" target="_blank">
+          🔗 Project Link with GitHub
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+
+<section class="testimonials" id="testimonials">
+
+  <h2 class="section-title">
+    Testimonials
+  </h2>
+
+  <div class="testimonial-container">
+
+    <!-- CARD 1 -->
+
+    <div class="testimonial-card">
+
+      <p>
+        "Built responsive and modern MERN stack applications with clean UI design."
+      </p>
+
+      <h4>- - Project Collaboration Feedback</h4>
+
+    </div>
+
+    <!-- CARD 2 -->
+
+    <div class="testimonial-card">
+
+      <p>
+        "Strong problem-solving skills with practical full-stack development experience."
+        
+      </p>
+
+      <h4>- - UI/UX Review</h4>
+
+    </div>
+
+    <!-- CARD 3 -->
+
+    <div class="testimonial-card">
+
+      <p>
+        "Quick learner with hands-on experience in React, Node.js, MongoDB, and modern deployment platforms."
+      </p>
+
+      <h4>- Development Project Feedback</h4>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+
+<section class="contact" id="contact">
+
+  <h2 class="section-title">Contact Me</h2>
+
+  <div class="contact-container">
+
+    <div class="contact-info">
+
+      <h3>Let's Work Together</h3>
+
+      <p>
+        Feel free to contact me for web development projects,
+        collaborations, internships, or freelance work.
+      </p>
+
+      <div class="info-box">
+        <i class="fa-solid fa-envelope"></i>
+        <span>mohitaalhanpur@gmail.com</span>
+      </div>
+
+      <div class="info-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Noida, Uttar Pradesh</span>
+      </div>
+
+    </div>
+
+    <!-- CONTACT FORM -->
+
+    <form class="contact-form" id="contact-form">
+
+      <input 
+        type="text"
+        name="from_name"
+        placeholder="Your Name"
+        required
+      >
+    
+      <input 
+        type="email"
+        name="from_email"
+        placeholder="Your Email"
+        required
+      >
+    
+      <input 
+        type="text"
+        name="subject"
+        placeholder="Subject"
+        required
+      >
+    
+      <textarea
+        name="message"
+        rows="6"
+        placeholder="Your Message"
+        required
+      ></textarea>
+    
+      <button type="submit">
+        Send Message
+      </button>
+    
+    </form>
+
+  </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+  <div class="social-icons">
+
+    <a href="https://github.com/Mohitmk9978" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/mohit-kumar-7a2a6b2b1" target="_blank">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="https://gmail.google.com/mail/?view=cm&fs=1&to=mohitaalhanpur@gmail.com&su=Portfolio%20Inquiry&body=Hello%20Mohit,%20I%20visited%20your%20portfolio."
+    target="_blank">
+    <i class="fa-solid fa-envelope"></i>
+    </a>
+
+  </div>
+
+  <p>© 2026 Mohit Kumar | MERN Stack Developer</p>
+
+</footer>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
