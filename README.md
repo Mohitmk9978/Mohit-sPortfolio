@@ -25,8 +25,7 @@ Modern and responsive MERN Stack Developer portfolio website built using HTML, C
 
 ## Live Demo
 
-https://YOUR_NETLIFY_LINK.netlify.app
+https://mohit-mern-portfolio.netlify.ap
 
 ## GitHub
-
-https://github.com/Mohitmk9978
+https://github.com/Mohitmk9978/Mohit-sPortfolio
